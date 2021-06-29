@@ -9,8 +9,7 @@ vector<int> solution(vector<int> progresses, vector<int> speeds) {
     int cnt = 0;
     
     while (i < speeds.size()) {
-        if (progresses[i] >= 100 && cnt > 0) { cnt++; i++; }
-        else if (progresses[i] >= 100) { cnt++; i++; }
+        if (progresses[i] >= 100) { cnt++; i++; }
         else if (progresses[i] < 100 && cnt > 0) {
             answer.push_back(cnt);
             cnt = 0;
