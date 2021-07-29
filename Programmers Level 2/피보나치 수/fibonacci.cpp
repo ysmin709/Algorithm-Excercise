@@ -13,8 +13,6 @@ int solution(int n) {
         else if (i == 1) fibo.push_back(1);
         else fibo.push_back((fibo[i-1] + fibo[i-2]) % 1234567);
     }
-    
-    answer = fibo[fibo.size()-1];
-    
-    return answer;
+
+    return fibo[fibo.size()-1];
 }
