@@ -12,5 +12,5 @@ bool solution(vector<string> phone_book) {
         if (phone_book[i].find(phone_book[i-1]) == 0) return false; // phone_book[i]가 phone_book[i-1]을 포함하고 있다면 false를 리턴
     }
     
-    return answer;
+    return answer; // 포함하지 않는다면 true 리턴
 }
