@@ -7,6 +7,7 @@ s는 길이 1 이상인 문자열입니다.
 s는 알파벳과 공백문자(" ")로 이루어져 있습니다.
 첫 문자가 영문이 아닐때에는 이어지는 영문은 소문자로 씁니다. ( 첫번째 입출력 예 참고 )
 ## 입출력 예
-s	return
-"3people unFollowed me"	"3people Unfollowed Me"
-"for the last week"	"For The Last Week"
+| s | return |
+| :----------------------: | :----------------------: |
+| "3people unFollowed me" | "3people Unfollowed Me" |
+| "for the last week" | "For The Last Week" |
