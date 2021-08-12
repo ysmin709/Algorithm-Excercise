@@ -57,5 +57,4 @@ int main() {
     int b_visited[MAX] = {0};
     b_visited[S] = 1; // 시작 정점은 1로 초기화하고 시작
     BFS(S, b_visited);
-
 }
