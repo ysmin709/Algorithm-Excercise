@@ -20,6 +20,6 @@ int main() {
             }
             if (Fcnt == -1) { cout << -1 << endl; return 0; } // 실패한 경우의 수
         }
-        cout <<  Fcnt + Tcnt << endl; // 성공했다면 2개의 봉지 개수를 합해서 출력
+        cout <<  Fcnt + Tcnt << endl; // 2개의 봉지 개수를 합해서 출력
     }
 }
