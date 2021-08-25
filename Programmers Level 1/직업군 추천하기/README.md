@@ -27,7 +27,7 @@ preference의 길이 = languages의 길이
 1 ≤ preference의 원소 ≤ 10
 preference의 i번째 원소는 languages의 i번째 원소의 언어 선호도입니다.
 return 할 문자열은 "SI", "CONTENTS", "HARDWARE", "PORTAL", "GAME" 중 하나입니다.
-입출력 예
+## 입출력 예
 | table | languages | preference | result |
 | :-----------------: | :----------: | :------: | :------: |
 | ["SI JAVA JAVASCRIPT SQL PYTHON C#", "CONTENTS JAVASCRIPT JAVA PYTHON SQL C++", "HARDWARE C C++ PYTHON JAVA JAVASCRIPT", "PORTAL JAVA JAVASCRIPT PYTHON KOTLIN PHP", "GAME C++ C# JAVASCRIPT C JAVA"] | ["PYTHON", "C++", "SQL"] | [7, 5, 5] | "HARDWARE" |
