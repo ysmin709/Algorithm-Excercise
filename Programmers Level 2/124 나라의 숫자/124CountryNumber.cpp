@@ -11,7 +11,7 @@ string solution(int n) {
         else if (n % 3 == 1) answer = "1" + answer;
         else answer = "2" + answer;
         
-        if (!(n % 3)) n = n / 3 - 1;
+        if (n % 3 == 0) n = n / 3 - 1;
         else n /= 3;
     }
     
