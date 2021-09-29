@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int n;
     cin >> n;
-    vector<int> vec(n+1, 0);
+    vector<long long> vec(n+1, 0);
 
     vec[0] = 0; vec[1] = 1;
 
