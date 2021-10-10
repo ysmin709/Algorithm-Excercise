@@ -10,8 +10,8 @@ char arr[51][51];
 bool visited[51][51];
 int dy[] = { 0, 1, 0, -1 };
 int dx[] = { -1, 0, 1, 0 };
-queue<pair<int, int>> check_q;
-queue<pair<int, pair<int, int>>> q;
+queue<pair<int, int>> check_q; // 모든 L에 대한 좌표 정보를 담는 queue
+queue<pair<int, pair<int, int>>> q; // 가중치와 좌표 정보를 담고 BFS 함수 안에서만 사용하는 queue
 vector<int> vec;
 
 void BFS(pair<int, int> node) {
@@ -26,7 +26,7 @@ void BFS(pair<int, int> node) {
         int cnt = q.front().first;
         q.pop();
         
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++) { // 상하좌우 체크
             int nx = x + dx[i];
             int ny = y + dy[i];
             if (nx >= 0 && nx < w && ny >= 0 && ny < h) {
@@ -53,13 +53,13 @@ int main() {
         }
     }
 
-    while(!check_q.empty()) {
+    while(!check_q.empty()) { // 모든 L에 대해서 체크
         memset(visited, false, sizeof(visited));
         BFS(check_q.front());
         check_q.pop();
     }
 
-    sort(vec.rbegin(), vec.rend());
+    sort(vec.rbegin(), vec.rend()); // 가장 큰 값을 찾기 위해 내림차순 정렬
 
-    cout << vec[0] << endl;
+    cout << vec[0] << endl; // 가장 큰 값 출력
 }
