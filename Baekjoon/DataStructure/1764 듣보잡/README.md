@@ -17,4 +17,4 @@
 ## 예제
 | 입력 | 출력 |
 | --------------- | --------------- |
-| 3 4<br/>ohhenrie<br/>charlie<br/>baesangwook<br/>obama<br/>baesangwook<br/>ohhenrie<br/>clinton | 2<br/>baesangwook<br/>ohhenrie |
+| 3 4<br/>ohhenrie<br/>charlie<br/>baesangwook<br/>obama<br/>baesangwook<br/>ohhenrie<br/>clinton | 2<br/>baesangwook<br/>ohhenrie  |
