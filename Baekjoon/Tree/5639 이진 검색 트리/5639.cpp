@@ -12,7 +12,7 @@ void postOrder(int start, int end) {
 
     int idx = start + 1;
     while (true) {
-        if (idx >= end && tree[idx] >= tree[start]) break;
+        if ((idx < end && tree[idx] < tree[start]) == false) break;
         idx++;
     }
 
