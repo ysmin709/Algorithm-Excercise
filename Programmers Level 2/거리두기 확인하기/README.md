@@ -35,13 +35,14 @@
 
 ## 입출력 예
 | places | result |
-| ---------------------------------------------- | ----------- |
+| ----------------------------------------- | ----------- |
 | [["POOOP", "OXXOX", "OPXPX", "OOXOX", "POXXP"], ["POOPX", "OXPXP", "PXXXO", "OXXXO", "OOOPP"], ["PXOPX", "OXOXP", "OXPOX", "OXXOP", "PXPOX"], ["OOOXX", "XOOOX", "OOOXX", "OXOOX", "OOOOO"], ["PXPXP", "XPXPX", "PXPXP", "XPXPX", "PXPXP"]] | [1, 0, 1, 1, 1] |
 
 ## 입출력 예 설명
 입출력 예 #1
 
 - 첫 번째 대기실
+
 No.	0	1	2	3	4
 
 0	P	O	O	O	P
@@ -58,6 +59,7 @@ No.	0	1	2	3	4
 
 
 - 두 번째 대기실
+
 No.	0	1	2	3	4
 
 0	P	O	O	P	X
@@ -78,6 +80,7 @@ No.	0	1	2	3	4
 
 
 - 세 번째 대기실
+
 No.	0	1	2	3	4
 
 0	P	X	O	P	X
@@ -94,6 +97,7 @@ No.	0	1	2	3	4
 
 
 - 네 번째 대기실
+
 No.	0	1	2	3	4
 
 0	O	O	O	X	X
@@ -110,6 +114,7 @@ No.	0	1	2	3	4
 
 
 - 다섯 번째 대기실
+
 No.	0	1	2	3	4
 
 0	P	X	P	X	P
