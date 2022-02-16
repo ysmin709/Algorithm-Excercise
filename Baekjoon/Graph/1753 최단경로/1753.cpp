@@ -8,20 +8,20 @@ vector<vector<pair<int, int>>> arr(20001, vector<pair<int, int>>());
 vector<int> dist(20001, 10000000);
 
 void dijkstra(int node) {
-    priority_queue<pair<int, int>> pq;
+    priority_queue<pair<int, int>> pq; // 우선순위 큐 사용
     pq.push(make_pair(0, node));
     dist[node] = 0;
 
     while (!pq.empty()) {
         node = pq.top().second;
-        int cost = -pq.top().first;
+        int cost = -pq.top().first; // 가장 작은게 앞으로 오므로 음수로 설정
         pq.pop();
 
         for (int i = 0; i < arr[node].size(); i++) {
             int next_node = arr[node][i].first;
             int next_cost = cost + arr[node][i].second;
 
-            if (dist[next_node] > next_cost) {
+            if (dist[next_node] > next_cost) { // 이전 dist 값이 현재 거리보다 크다면
                 dist[next_node] = next_cost;
                 pq.push(make_pair(-next_cost, next_node));
             }
