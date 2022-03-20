@@ -19,4 +19,4 @@
 ## 예제
 | 입력 | 출력 |
 | ------------ | ------------ |
-| 2<br/><<BP<A>>Cd-<br/>ThIsIsS3Cr3t | BAPC<br/>ThIsIsS3Cr3t |
+| 2<br/><< BP< A>>Cd-<br/>ThIsIsS3Cr3t | BAPC<br/>ThIsIsS3Cr3t |
